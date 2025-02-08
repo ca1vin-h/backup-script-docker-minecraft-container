@@ -21,13 +21,13 @@ This Bash script automates the process of restarting a Dockerized Minecraft serv
 - Stores the backup in a user-specified output directory.
 
 ## Dependencies
-- Docker (installed and running)
+- Docker Container running [itzg/docker-minecraft-server](https://github.com/itzg/docker-minecraft-server) (installed and running)
 - `rcon-cli` (installed within the Docker container for sending in-game messages)
 - Sufficient disk space for backup storage
 
 ## Example
 ```sh
-./restart-script.sh minecraft_server /backups/ my_minecraft_world
+./restart-script.sh a1b2c3d4e5f6 /backups/ my_minecraft_world
 ```
 This example will:
 1. Warn players about the restart.
