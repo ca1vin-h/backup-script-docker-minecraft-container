@@ -1,4 +1,4 @@
-# Restart Script for Docker Minecraft Container
+# Backup Script for Docker Minecraft Container
 
 ## Overview
 This Bash script automates the process of restarting a Dockerized Minecraft server based on the [itzg/docker-minecraft-server](https://github.com/itzg/docker-minecraft-server). It provides scheduled warning messages to players before stopping the server, backs up the world data, and then restarts the server. This task should be scheduled to run automatically, for example, using a cron job.
